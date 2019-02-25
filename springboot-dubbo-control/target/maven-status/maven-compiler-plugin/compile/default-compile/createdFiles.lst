@@ -1,0 +1,10 @@
+com\jack\springbootdubbocontrol\service\CrawServiceImpl.class
+com\jack\springbootdubbocontrol\thread\CrawThread.class
+com\jack\springbootdubbocontrol\thread\AsyncConfig.class
+com\jack\springbootdubbocontrol\util\PageParserUtil.class
+com\jack\springbootdubbocontrol\SpringbootDubboControlApplication.class
+com\jack\springbootdubbocontrol\service\UserServiceServiceImpl.class
+com\jack\springbootdubbocontrol\model\IUserModel.class
+com\jack\springbootdubbocontrol\util\TA.class
+com\jack\springbootdubbocontrol\model\CategoryDynaSqlProvider.class
+com\jack\springbootdubbocontrol\model\IMoviewModel.class

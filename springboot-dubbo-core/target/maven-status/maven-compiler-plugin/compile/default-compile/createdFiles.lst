@@ -1,0 +1,13 @@
+com\jack\crawl\utils\CharsetDetector.class
+com\jack\bean\User.class
+com\jack\crawl\utils\RegexRule.class
+com\jack\crawl\bean\Page.class
+com\jack\interfaces\IUserService.class
+com\jack\result\Result.class
+com\jack\crawl\utils\HttpUtils.class
+com\jack\crawl\bean\Links.class
+com\jack\interfaces\CrawService.class
+com\jack\bean\Moview.class
+com\jack\crawl\interfaces\LinkFilter.class
+com\jack\crawl\utils\FileTool.class
+com\jack\crawl\utils\TA.class

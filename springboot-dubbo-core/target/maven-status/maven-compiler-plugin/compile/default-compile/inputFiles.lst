@@ -1,0 +1,13 @@
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\result\Result.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\bean\Page.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\bean\Links.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\interfaces\CrawService.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\utils\HttpUtils.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\utils\RegexRule.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\bean\User.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\utils\TA.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\bean\Moview.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\interfaces\LinkFilter.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\utils\CharsetDetector.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\interfaces\IUserService.java
+E:\springboot-dubbo\springboot-dubbo-parent\springboot-dubbo-core\src\main\java\com\jack\crawl\utils\FileTool.java
