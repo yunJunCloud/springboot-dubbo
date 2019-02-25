@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-dubbo-core</module>
+        <module>springboot-dubbo-front</module>
+        <module>springboot-dubbo-control</module>
+    </modules>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.jack</groupId>
+    <artifactId>springboot-dubbo-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot-dubbo-parent</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <!-- 在properties中统一控制依赖包的版本，更清晰-->
+        <!--<dubbo.version>2.5.4</dubbo.version>
+        <zk.version>3.4.13</zk.version>
+        <zkclient.version>0.1</zkclient.version>-->
+        <dubbo.starter.version>0.2.0</dubbo.starter.version>
+        <!--指定themleaft版本-->
+       <!-- <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>2.0.5</thymeleaf-layout-dialect.version>-->
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>${dubbo.starter.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.juniversalchardet</groupId>
+            <artifactId>juniversalchardet</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+
+        <!-- 分页插件 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+        <!-- redis以及redis集群-->
+        <!--      <dependency>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-starter-redis</artifactId>
+                  <version>2.0.5.RELEASE</version>
+              </dependency>-->
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.7.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!--新增后续dubbo项目中所需依赖，dubbo、zk-->
+        <!--  <dependency>
+              <groupId>com.alibaba</groupId>
+              <artifactId>dubbo</artifactId>
+              <version>${dubbo.version}</version>&lt;!&ndash;使用properties中配置的版本号&ndash;&gt;
+              <exclusions>
+                  <exclusion>
+                      <groupId>org.springframework</groupId>
+                      <artifactId>spring</artifactId>
+                  </exclusion>
+              </exclusions>
+          </dependency>-->
+
+        <!-- <dependency>
+             <groupId>org.apache.zookeeper</groupId>
+             <artifactId>zookeeper</artifactId>
+             <version>${zk.version}</version>
+             <exclusions>
+                 <exclusion>
+                     <groupId>org.slf4j</groupId>
+                     <artifactId>slf4j-log4j12</artifactId>
+                 </exclusion>
+                 <exclusion>
+                     <groupId>log4j</groupId>
+                     <artifactId>log4j</artifactId>
+                 </exclusion>
+             </exclusions>
+         </dependency>
+         <dependency>
+             <groupId>com.github.sgroschupf</groupId>
+             <artifactId>zkclient</artifactId>
+             <version>${zkclient.version}</version>
+         </dependency>-->
+
+        <!--        <dependency>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>springloaded</artifactId>
+                    <version>1.2.6.RELEASE</version>
+                </dependency>-->
+        <!--thyemleaf页面-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>
