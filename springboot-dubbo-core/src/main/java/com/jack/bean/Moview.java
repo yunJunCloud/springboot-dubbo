@@ -43,4 +43,8 @@ public class Moview implements Serializable {
     public void setType(int type) {
         this.type = type;
     }
+	
+	public String toString(){
+		return "测试";
+	}
 }
